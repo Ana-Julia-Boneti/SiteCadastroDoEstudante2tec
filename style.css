@@ -1,0 +1,78 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(144, 194, 209);
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+body{
+    font-family: sans-serif;
+    background-color: rgb(142, 201, 201);
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.container{
+    background: rgb(68, 211, 211);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(red, green, blue, alpha);
+    width: 300px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.container{
+    background: rgba(164, 223, 247, 0.623);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(red, green, blue, alpha);
+    width: 300px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, button{
+    padding: 10px;
+    border: 1px solid #d64141;
+    border-radius: 4px;
+}
+
+button {
+    background-color: rgb(52, 161, 161); /* Tom de ciano escuro */
+    color: aliceblue;
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px; /* Adicionei um respiro para o botão não ficar esmagado */
+    border-radius: 5px;  /* Um arredondamento leve costuma cair bem */
+}
+
+button:hover {
+    background-color: rgb(42, 141, 141);
+}
+
+button:hover{
+    background-color: rgb(30, 32, 122);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    background-color: rgb(241, 231, 231);
+    margin-top: 5px;
+    padding: 8px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}
